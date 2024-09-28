@@ -45,7 +45,7 @@ cd Professional-Tax-Calculator
 ### Create a virtual environment:
 
  Copy code
-<br>
+<br><br>
  py -3 -m venv .venv
 
 <br>
@@ -55,7 +55,7 @@ cd Professional-Tax-Calculator
 ### On macOS/Linux:
 <br>
  Copy code
-<br>
+<br><br>
 
 source venv/bin/activate
 
