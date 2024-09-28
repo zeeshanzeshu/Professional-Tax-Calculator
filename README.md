@@ -19,10 +19,12 @@ Prerequisites:-
 To run this project locally, you need to have the following installed:
 
 Python 3.x
+<br>
 Flask
 
 
 #Setup Instructions
+<br>
 Clone the repository:
 
 bash
