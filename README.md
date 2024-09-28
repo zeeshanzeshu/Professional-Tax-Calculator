@@ -25,7 +25,7 @@ Flask
 
 #Setup Instructions
 <br>
-Clone the repository:
+Clone the repository in terminal:
 <br>
 git clone https://github.com/your-username/tax-calculator.git
 <br>
@@ -35,17 +35,22 @@ cd tax-calculator
 <br>
 Create a virtual environment:
 <br>
+1. copy code 
 python3 -m venv venv
-<br>
+<br><br>
 Activate the virtual environment:
 <br>
 On macOS/Linux:
-<br>
+<br><br>
+1. copy code
+   <br>
 source venv/bin/activate
 
-<br>
+<br><br>
 
 On Windows:
+<br><br>
+1. copy code
 <br>
 venv\Scripts\activate
 
@@ -54,6 +59,7 @@ Install the required dependencies:
 <br>
 pip install Flask
 
+<br>
 
 Run the Flask application:
 <br>
