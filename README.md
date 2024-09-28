@@ -35,7 +35,7 @@ To run this project locally, you need to have the following installed:
 
 ### Navigate to the project directory:
 
-Copy code
+## Copy code
 <br>
 
 cd tax-calculator
@@ -54,7 +54,7 @@ python3 -m venv venv
 
 ### On macOS/Linux:
 <br>
-### Copy code
+## Copy code
 <br>
 
 source venv/bin/activate
@@ -64,7 +64,7 @@ source venv/bin/activate
 
 ### On Windows:
 <br>
-###Copy code
+## Copy code
 <br>
 
 venv\Scripts\activate
@@ -74,7 +74,7 @@ venv\Scripts\activate
 ###  Install the required dependencies:
 <br>
 
-### Copy code
+## Copy code
 <br>
 
 pip install Flask
@@ -82,7 +82,7 @@ pip install Flask
 
 ### Run the Flask application:
 <br>
-### Copy code
+## Copy code
 <br>
 
 flask run
