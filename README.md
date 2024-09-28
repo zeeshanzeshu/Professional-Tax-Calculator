@@ -38,7 +38,7 @@ To run this project locally, you need to have the following installed:
  Copy code
 <br>
 
-cd tax-calculator
+cd Professional-Tax-Calculator
 
 <br>
 
