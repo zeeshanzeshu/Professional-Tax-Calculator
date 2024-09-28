@@ -46,7 +46,7 @@ Create a virtual environment:
 
 ## Copy code
 <br>
-python3 -m venv venv
+ py -3 -m venv .venv
 
 <br>
 
@@ -67,7 +67,7 @@ source venv/bin/activate
  Copy code
 <br><br>
 
-venv\Scripts\activate
+.venv\Scripts\activate
 
 <br>
 
