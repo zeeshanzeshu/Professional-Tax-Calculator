@@ -1,33 +1,36 @@
-﻿# Professional-Tax-Calculator
+# Professional-Tax-Calculator
 
-#Description
+## Description
 The Professional Tax Calculator is a web-based application designed to help users calculate their annual tax based on their gross and net salaries. It allows users to input their monthly salary details, select the month and year, and get an estimate of their annual salary and tax liabilities.
 
-This project uses HTML, Tailwind CSS, and Flask to provide a modern, responsive, and professional interface for a seamless user experience.
+This project uses **HTML**, **Tailwind CSS**, and **Flask** to provide a modern, responsive, and professional interface for a seamless user experience.
 
-#Features
-1. Sleek and responsive design using Tailwind CSS
-2. Allows users to input monthly salary details
-3. Calculates the estimated annual salary and tax
-4. Interactive UI with subtle animations and hover effects
-5. Easy to deploy and run locally using Flask:-
+## Features
+1. Sleek and responsive design using Tailwind CSS  
+2. Allows users to input monthly salary details  
+3. Calculates the estimated annual salary and tax  
+4. Interactive UI with subtle animations and hover effects  
+5. Easy to deploy and run locally using Flask  
+
 <br>
-#How to Use :-
-<br>
-Prerequisites:-
-<br>
+
+## How to Use
+
+### Prerequisites:
 To run this project locally, you need to have the following installed:
 
-Python 3.x
-<br>
-Flask
+- **Python 3.x**
+- **Flask**
 
+<br>
 
-#Setup Instructions
-<br>
-Clone the repository in terminal:
-<br>
-git clone https://github.com/your-username/tax-calculator.git
+### Setup Instructions:
+
+1. Clone the repository in terminal:
+
+   ```bash
+   git clone https://github.com/your-username/tax-calculator.git
+
 <br>
 Navigate to the project directory:
 <br>
