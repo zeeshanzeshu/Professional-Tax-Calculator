@@ -26,45 +26,47 @@ Flask
 #Setup Instructions
 <br>
 Clone the repository:
-
-bash
-Copy code
+<br>
 git clone https://github.com/your-username/tax-calculator.git
+<br>
 Navigate to the project directory:
-
-bash
-Copy code
+<br>
 cd tax-calculator
+<br>
 Create a virtual environment:
-
-bash
-Copy code
+<br>
 python3 -m venv venv
+<br>
 Activate the virtual environment:
-
+<br>
 On macOS/Linux:
-bash
-Copy code
+<br>
 source venv/bin/activate
+
+<br>
+
 On Windows:
-bash
-Copy code
+<br>
 venv\Scripts\activate
+
+<br>
 Install the required dependencies:
-
-bash
-Copy code
+<br>
 pip install Flask
+
+
 Run the Flask application:
-
-bash
-Copy code
+<br>
 flask run
-Open your browser and go to:
+<br>
 
-arduino
-Copy code
+
+Open your browser and go to:
+<br>
 http://127.0.0.1:5000/
+<br>
+click on http://127.0.0.1:5000/
+<br>
 You should now be able to interact with the Tax Calculator and use it to estimate your annual salary and tax.
 
 
