@@ -13,7 +13,9 @@ This project uses HTML, Tailwind CSS, and Flask to provide a modern, responsive,
 5. Easy to deploy and run locally using Flask:-
 <br>
 #How to Use :-
+<br>
 Prerequisites:-
+<br>
 To run this project locally, you need to have the following installed:
 
 Python 3.x
