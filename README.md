@@ -54,7 +54,7 @@ python3 -m venv venv
 
 ### On macOS/Linux:
 <br>
-## Copy code
+ Copy code
 <br>
 
 source venv/bin/activate
@@ -64,7 +64,7 @@ source venv/bin/activate
 
 ### On Windows:
 <br>
-## Copy code
+ Copy code
 <br><br>
 
 venv\Scripts\activate
@@ -82,7 +82,7 @@ pip install Flask
 
 ### Run the Flask application:
 <br>
-## Copy code
+ Copy code
 <br><br>
 
 flask run
@@ -92,7 +92,6 @@ flask run
 ### Open your browser and go to:
 ```bash
 http://127.0.0.1:5000/
-<br><br>
 
 You should now be able to interact with the Tax Calculator and use it to estimate your annual salary and tax.
 
