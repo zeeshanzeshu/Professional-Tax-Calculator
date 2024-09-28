@@ -31,12 +31,12 @@ To run this project locally, you need to have the following installed:
    ```bash
    git clone https://github.com/your-username/tax-calculator.git
 
-   <br>
+
 
 ### Navigate to the project directory:
 
-bash
 Copy code
+```bash
 cd tax-calculator
 
 <br>
@@ -44,6 +44,7 @@ cd tax-calculator
 ### Create a virtual environment:
 
 ## Copy code
+```bash
 python3 -m venv venv
 
 <br>
@@ -52,6 +53,7 @@ python3 -m venv venv
 
 ### On macOS/Linux:
 ### Copy code
+```bash
 source venv/bin/activate
 
 <br>
@@ -66,19 +68,22 @@ venv\Scripts\activate
 
 ###  Install the required dependencies:
 <br>
+
 ### Copy code
+```bash
 pip install Flask
 <br>
 
 ### Run the Flask application:
 
 ### Copy code
+```bash
 flask run
 <br>
 
 
 ### Open your browser and go to:
-
+```bash
 http://127.0.0.1:5000/
 
 You should now be able to interact with the Tax Calculator and use it to estimate your annual salary and tax.
