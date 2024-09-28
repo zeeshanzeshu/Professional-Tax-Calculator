@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Tax Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #e9eff4, #f0f4f8);
+            color: #2c3e50;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            margin: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1f2937;
+            text-align: center;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .input-label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #34495e;
+        }
+
+        .input-field {
+            border: 1px solid #d1d5db;
+            border-radius: 12px;
+            padding: 16px;
+            width: 100%;
+            background-color: #f9f9f9;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 4px 10px rgba(59, 130, 246, 0.2);
+            background-color: #fff;
+        }
+
+        .submit-button {
+            background: linear-gradient(to right, #3b82f6, #2563eb);
+            color: #ffffff;
+            padding: 16px;
+            border-radius: 12px;
+            font-weight: 600;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+            margin-top: 20px;
+        }
+
+        .submit-button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .result-box {
+            background-color: #f9fafb;
+            border-left: 5px solid #3b82f6;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .result-title {
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 6px;
+        }
+
+        .result-value {
+            font-size: 1.75rem;
+            color: #3b82f6;
+            font-weight: 700;
+        }
+
+        /* Add some extra styling for form fields */
+        select, input {
+            appearance: none;
+        }
+
+        select {
+            background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="%2344a6f6"%3E%3Cpath stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/%3E%3C/svg%3E');
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            background-size: 1.5em;
+        }
+
+        select:focus {
+            background-image: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Tax Calculator</h1>
+        <form action="/" method="POST">
+            <div>
+                <label for="month" class="input-label">Select Month</label>
+                <select name="month" id="month" class="input-field">
+                    <option>Select a month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <!-- Add other months here -->
+                </select>
+            </div>
+
+            <div>
+                <label for="year" class="input-label">Select Year</label>
+                <select name="year" id="year" class="input-field">
+                    <option>Select a year</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <!-- Add other years here -->
+                </select>
+            </div>
+
+            <div>
+                <label for="gross-salary" class="input-label">Gross Salary</label>
+                <input type="number" name="gross-salary" id="gross-salary" placeholder="Enter your gross salary" class="input-field" required>
+            </div>
+
+            <div>
+                <label for="net-salary" class="input-label">Net Salary</label>
+                <input type="number" name="net-salary" id="net-salary" placeholder="Enter your net salary" class="input-field" required>
+            </div>
+
+            <button type="submit" class="submit-button">
+                Calculate Tax
+            </button>
+        </form>
+
+        {% if annual_salary is not none %}
+        <div class="result-box">
+            <p class="result-title">Your Annual Salary:</p>
+            <p class="result-value">{{ annual_salary | round(2) }}</p>
+            <p class="result-title">Your Annual Tax:</p>
+            <p class="result-value">{{ annual_tax | round(2) }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>
