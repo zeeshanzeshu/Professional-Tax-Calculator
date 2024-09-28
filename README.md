@@ -35,16 +35,16 @@ To run this project locally, you need to have the following installed:
 
 ### Navigate to the project directory:
 
-## Copy code
+ Copy code
 <br>
 
 cd tax-calculator
 
 <br>
 
-Create a virtual environment:
+### Create a virtual environment:
 
-## Copy code
+ Copy code
 <br>
  py -3 -m venv .venv
 
@@ -74,7 +74,7 @@ source venv/bin/activate
 ###  Install the required dependencies:
 <br>
 
-## Copy code
+ Copy code
 <br><br>
 
 pip install Flask
@@ -90,7 +90,7 @@ flask run
 
 
 ### Open your browser and go to:
-```bash
+<br>
 http://127.0.0.1:5000/
 
 You should now be able to interact with the Tax Calculator and use it to estimate your annual salary and tax.
