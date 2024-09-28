@@ -92,6 +92,7 @@ flask run
 ### Open your browser and go to:
 ```bash
 http://127.0.0.1:5000/
+<br><br>
 
 You should now be able to interact with the Tax Calculator and use it to estimate your annual salary and tax.
 
