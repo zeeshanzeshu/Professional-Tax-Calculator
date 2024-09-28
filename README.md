@@ -65,7 +65,7 @@ source venv/bin/activate
 ### On Windows:
 <br>
 ## Copy code
-<br>
+<br><br>
 
 venv\Scripts\activate
 
@@ -75,7 +75,7 @@ venv\Scripts\activate
 <br>
 
 ## Copy code
-<br>
+<br><br>
 
 pip install Flask
 <br>
@@ -83,10 +83,10 @@ pip install Flask
 ### Run the Flask application:
 <br>
 ## Copy code
-<br>
+<br><br>
 
 flask run
-<br>
+<br><br>
 
 
 ### Open your browser and go to:
